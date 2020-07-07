@@ -1,0 +1,22 @@
+[run]
+relative_files = 1
+cover_pylib = 0
+
+[paths]
+source =
+    src/
+    rssd/
+
+[report]
+omit = 
+    */python?.?/*
+    */site-packages/*
+    */pypy/*
+    */examples/*
+
+# Regexes for lines to exclude from consideration
+exclude_lines =
+    pragma: no cover
+    if self\.debug
+    if 0:
+    if __name__ == .__main__.

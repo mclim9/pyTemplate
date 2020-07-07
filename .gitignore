@@ -1,0 +1,40 @@
+### Build directories
+/dist/
+/build/
+/*.egg-info/
+/rssd/Unity/build/
+/rssd/Unity/dist/
+/rssd/Unity/fixtures/
+/rssd/.vscode/
+/proto/
+
+### IQ Waveform/Capture
+*.iqw
+*.wv
+*.xml
+*.tar
+
+### Administrative
+*.pyc
+*.lnk
+*.code-workspace
+*.bat
+
+### Data files
+*.csv
+*.xls
+*.xlsx
+*.xlsm
+*.pdf
+*.ppt
+*.pptx
+*.rsi
+*.json
+*.zip
+rssd/VSA_Leveling.py
+
+## Testing Files
+htmlcov
+.coveralls.yml
+test/.coverage
+/*.coverage

@@ -1,0 +1,34 @@
+language: python
+cache: pip
+
+notifications:
+  email:
+    recipients:
+      - martin.lim@rsa.rohde-schwarz.com
+    on_success: never     # default: change
+    on_failure: always    # default: always
+
+python:
+  - "3.6"
+  - "3.7"
+  - "3.8"
+
+os:
+  - linux
+  # - osx         #Not working 19.04.23
+  # - windows     #Windows does not support python
+  
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+  - pip install -r req_test.txt
+
+# command to run tests
+script:
+  # - python -m unittest -v test.test_SW_LoadModules
+  - coverage run    -m unittest -b -v test.test_SW_LoadModules
+  - coverage run -a -m unittest discover -b -v -p test_SW*
+
+after_success:
+  - coveralls
+
