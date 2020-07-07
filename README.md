@@ -1,9 +1,9 @@
 # Rohde & Schwarz SCPI Driver
-[![Test Status    ](https://travis-ci.org/mclim9/rssd.svg?branch=master)](https://travis-ci.org/github/mclim9/rssd)
-[![PyPI version   ](https://badge.fury.io/py/rssd.svg)](https://pypi.org/project/rssd/)
-![Coveralls github](https://img.shields.io/coveralls/github/mclim9/rssd)
+[![Test Status    ](https://travis-ci.org/mclim9/pyTemplate.svg?branch=master)](https://travis-ci.org/github/mclim9/pyTemplate)
+[![PyPI version   ](https://badge.fury.io/py/pyTemplate.svg)](https://pypi.org/project/pyTemplate/)
+![Coveralls github](https://img.shields.io/coveralls/github/mclim9/pyTemplate)
 ![Versioning      ](https://img.shields.io/badge/calver-YY.0M.MICRO-22bfda.svg)
-![Python package  ](https://github.com/mclim9/rssd/workflows/Python%20package/badge.svg)
+![Python package  ](https://github.com/mclim9/pyTemplate/workflows/Python%20package/badge.svg)
 
 ## Description
 Directories     | Description
@@ -45,10 +45,10 @@ python -m __main__.py
 ### Example Code
 
 
-# [Documentation](https://github.com/mclim9/rssd/wiki/)
+# [Documentation](https://github.com/mclim9/pyTemplate/wiki/)
 
 # Project
-- Code Repository: [GitHub](https://github.com/mclim9/rssd)
+- Code Repository: [GitHub](https://github.com/mclim9/pyTemplate)
 - Author: Martin C Lim
 - License: This project is licensed under the R&S License for Royalty-Free Products- see the [LICENSE](LICENSE.txt) file for details
 

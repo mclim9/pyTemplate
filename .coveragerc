@@ -5,7 +5,6 @@ cover_pylib = 0
 [paths]
 source =
     src/
-    rssd/
 
 [report]
 omit = 
