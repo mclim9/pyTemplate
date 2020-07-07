@@ -50,7 +50,7 @@ python -m __main__.py
 # Project
 - Code Repository: [GitHub](https://github.com/mclim9/pyTemplate)
 - Author: Martin C Lim
-- License: This project is licensed under the R&S License for Royalty-Free Products- see the [LICENSE](LICENSE.txt) file for details
+- License: This project is licensed under GNU General Public License v3.0- see the [LICENSE](License.txt) file for details
 
 ## Acknowledgments
 - [Markdown reference](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
