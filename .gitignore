@@ -2,17 +2,14 @@
 /dist/
 /build/
 /*.egg-info/
-/rssd/Unity/build/
-/rssd/Unity/dist/
-/rssd/Unity/fixtures/
-/rssd/.vscode/
 /proto/
 
 ### IQ Waveform/Capture
 *.iqw
+*.rsi
+*.tar
 *.wv
 *.xml
-*.tar
 
 ### Administrative
 *.pyc
@@ -28,10 +25,8 @@
 *.pdf
 *.ppt
 *.pptx
-*.rsi
 *.json
 *.zip
-rssd/VSA_Leveling.py
 
 ## Testing Files
 htmlcov
