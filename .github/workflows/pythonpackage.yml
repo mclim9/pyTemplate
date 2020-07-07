@@ -43,7 +43,7 @@ jobs:
 
     - name: Lint with pylint
       run: |
-        python -m pylint rssd
+        python -m pylint src
 
     - name: Test with pytest
       run: |
