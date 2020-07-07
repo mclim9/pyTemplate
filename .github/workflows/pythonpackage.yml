@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.6, 3.8]
+        python-version: [3.6, 3.x, pypy3]
 
     steps:
     - uses: actions/checkout@v2
@@ -48,5 +48,5 @@ jobs:
     - name: Test with pytest
       run: |
         # pytest
-        coverage run    -m unittest -b -v test.test_SW_LoadModules
+        coverage run    -m unittest -b -v test.test_LoadModules
         coverage run -a -m unittest discover -b -v -p test_SW*

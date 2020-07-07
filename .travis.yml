@@ -10,7 +10,7 @@ notifications:
 
 python:
   - "3.6"
-  - "3.8"
+  - "nightly"
 
 os:
   - linux
@@ -25,7 +25,7 @@ install:
 # command to run tests
 script:
   # - python -m unittest -v test.test_SW_LoadModules
-  - coverage run    -m unittest -b -v test.test_SW_LoadModules
+  - coverage run    -m unittest -b -v test.test_LoadModules
   - coverage run -a -m unittest discover -b -v -p test_SW*
 
 after_success:
