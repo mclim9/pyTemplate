@@ -1,4 +1,4 @@
-# Rohde & Schwarz SCPI Driver
+# Covid: Python Project Template (CPPT?)
 [![Test Status    ](https://travis-ci.org/mclim9/pyTemplate.svg?branch=master)](https://travis-ci.org/github/mclim9/pyTemplate)
 [![PyPI version   ](https://badge.fury.io/py/pyTemplate.svg)](https://pypi.org/project/pyTemplate/)
 ![Coveralls github](https://img.shields.io/coveralls/github/mclim9/pyTemplate)
@@ -23,6 +23,7 @@ License.txt     | Project license
 README.md       | Project introduction
 release.md      | Project Release notes
 requirements.txt| Dependencies
+req_test.txt    | Dependencies needed for Test & CI
 setup.py        | Create package file
 upload.bat      | Upload to pypi
 __init__.py     | Library load
