@@ -23,7 +23,6 @@ License.txt     | Project license
 README.md       | Project introduction
 release.md      | Project Release notes
 requirements.txt| Dependencies
-req_test.txt    | Dependencies needed for Test & CI
 setup.py        | Create package file
 upload.bat      | Upload to pypi
 __init__.py     | Library load
@@ -45,13 +44,9 @@ python -m __main__.py
 
 ### Example Code
 
-
 # [Documentation](https://github.com/mclim9/pyTemplate/wiki/)
 
 # Project
 - Code Repository: [GitHub](https://github.com/mclim9/pyTemplate)
 - Author: Martin C Lim
 - License: This project is licensed under GNU General Public License v3.0- see the [LICENSE](License.txt) file for details
-
-## Acknowledgments
-- [Markdown reference](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)

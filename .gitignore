@@ -2,7 +2,6 @@
 /dist/
 /build/
 /*.egg-info/
-/proto/
 
 ### IQ Waveform/Capture
 *.iqw
@@ -31,5 +30,5 @@
 ## Testing Files
 htmlcov
 .coveralls.yml
-test/.coverage
+tests/.coverage
 /*.coverage
