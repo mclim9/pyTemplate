@@ -1,18 +1,12 @@
-# ##############################################################################
 # ## Reference: https://python-packaging.readthedocs.io/en/latest/minimal.html
-# ##
-# ## python setup.py register            #Reserve name in pypi
-# ## python setup.py --help-commands     #Help
-# ## python setup.py install             #Installs package
-# ## python setup.py install_scripts
-# ## pip install .                       #Installs package in directory
-# ## pip install -e .                    #Install editable package
-# ##############################################################################
-# ## Upload to PyPi
-# ## python setup.py sdist           #Creates <pkg>.tar.gz
+# ## python setup.py register           # Reserve name in pypi
+# ## python setup.py --help-commands    # Help
+# ## python setup.py install            # Installs package
+# ## pip install .                      # Installs package in directory
+# ## pip install -e .                   # Install editable package
+# ## python setup.py sdist              # Creates <pkg>.tar.gz for Pypi
 # ## twine upload .\dist\covid-2020.06.02.tar.gz
 
-# import os
 from setuptools import setup, find_packages
 
 with open('README.md') as f:
@@ -36,11 +30,10 @@ setup(
     url='https://github.com/mclim9/covid',
     author='Martin Lim',
     author_email='martin.lim@rsa.rohde-schwarz.com',
-    license='R&S Terms and Conditions for Royalty-Free Products',
+    license='',
     packages=find_packages(exclude=['test', 'proto']),
     install_requires=[
-        'pyvisa>=1.9.0',
-        'future_fstrings>=1.0.0',
+        'pyvisa>=1.9.0'
     ],
     test_suite='test',
     include_package_data=True,
@@ -48,6 +41,6 @@ setup(
     entry_points={
         'console_scripts': [
             'covid=covid.bin.cli:main'
-            ],
+        ],
     },
 )

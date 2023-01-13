@@ -5,11 +5,11 @@ import unittest
 import sys
 
 class TestGeneral(unittest.TestCase):
-    def setUp(self):                                #Run before each test
+    def setUp(self):                                # Run before each test
         sys.path.append('../')
         print("",end="")
 
-    def tearDown(self):                             #Run after each test
+    def tearDown(self):                             # Run after each test
         pass
 
 ###############################################################################
